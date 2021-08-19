@@ -11,4 +11,22 @@ fun main() {
     for (valor in values){
         println(valor)
     }
+
+    println("............................")
+    values.forEach { valor ->
+        println(valor)
+    }
+
+    println("............................")
+    
+    for (index in values.indices){
+        println(values[index])
+    }
+
+    println("............................")
+    // ordena valor
+    values.sort()
+    for (valor in values){
+        println(valor)
+    }
 }
